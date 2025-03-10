@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding for Kids</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.svg" class="navbar-brand__logo" alt="Coding For Kids">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto col-7 d-flex justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">О школе</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Курсы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#record">Записаться</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-section__content d-flex row align-items-center row">
+                <div class="hero-section__text col-md-6 row">
+                    <h1 class="hero-section__title col-12"><span class="hero-section__main_word">Программирование</span>
+                        — это просто и увлекательно! 🚀</h1>
+                    <p class="hero-section__description col-9">Мы учим детей создавать игры, сайты и приложения. Первое
+                        пробное занятие — <span class="hero-section__free">бесплатно</span>!</p>
+                    <a href="#record" class="hero-section__button btn col-7">Записаться на пробное занятие</a>
+                </div>
+                <div class="hero-section__images col-md-6">
+                    <img src="./images/hero/hero_4.png" class="hero-section__image hero-section__image--top"
+                        alt="Дети программируют">
+                    <img src="./images/hero/hero_1.png" class="hero-section__image hero-section__image--left"
+                        alt="Дети учатся">
+                    <img src="./images/hero/hero_2.png" class="hero-section__image hero-section__image--right"
+                        alt="Дети создают проекты">
+                    <img src="./images/hero/hero_3.png" class="hero-section__image hero-section__image--bottom"
+                        alt="Дети работают в команде">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="about-section__title">Почему выбирают нас?</h2>
+            <div class="about-section__content row align-items-center">
+                <div class="about-section__text col-md-8">
+                    <p class="about-section__description">
+                        Мы — школа программирования для <span class="about-section__highlight">детей от 6 до 16
+                            лет</span>, где каждый ребёнок может раскрыть свой потенциал и научиться создавать цифровые
+                        проекты с нуля. Наша миссия — сделать обучение программированию увлекательным, доступным и
+                        полезным для будущего вашего ребёнка.
+                    </p>
+                </div>
+                <div class="about-section__image col-md-4">
+                    <img src="./images/about/about_school.png" alt="Почему выбирают нас">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers-section">
+        <div class="container">
+            <h2 class="offers-section__title">Мы предлагаем</h2>
+            <div class="offers-section__content">
+                <div class="offers-section__item row d-flex align-items-center my-4">
+                    <div class="offers-section__item-image col-md-3">
+                        <img src="./images/offers/offer_1.png" alt="Индивидуальный подход">
+                    </div>
+                    <div class="offers-section__item-description col-md-9">
+                        <p><span class="offers-section__accent">Индивидуальный подход:</span> Мы учитываем интересы и
+                            уровень подготовки каждого ученика. Если ваш ребёнок только начинает или уже имеет опыт, мы
+                            найдём для него подходящую программу.</p>
+                    </div>
+                </div>
+                <div class="offers-section__item row d-flex align-items-center my-4">
+                    <div class="offers-section__item-description col-md-9">
+                        <p><span class="offers-section__accent">Практические навыки:</span> Мы учим не просто писать
+                            код, а создавать реальные проекты: игры, сайты, приложения и даже роботов!</p>
+                    </div>
+                    <div class="offers-section__item-image col-md-3">
+                        <img src="./images/offers/offer_2.png" alt="Практические навыки">
+                    </div>
+                </div>
+                <div class="offers-section__item row d-flex align-items-center my-4">
+                    <div class="offers-section__item-image col-md-3">
+                        <img src="./images/offers/offer_3.png" alt="Современные технологии">
+                    </div>
+                    <div class="offers-section__item-description col-md-9">
+                        <p><span class="offers-section__accent">Современные технологии:</span> Наши курсы включают
+                            изучение актуальных языков программирования (Scratch, Python, JavaScript) и инструментов
+                            (Blender, HTML/CSS, Figma).</p>
+                    </div>
+                </div>
+                <div class="offers-section__item row d-flex align-items-center my-4">
+                    <div class="offers-section__item-description col-md-9">
+                        <p><span class="offers-section__accent">Опытные преподаватели:</span> Наши педагоги —
+                            практикующие IT-специалисты, которые знают, как объяснить сложные вещи простым языком.</p>
+                    </div>
+                    <div class="offers-section__item-image col-md-3">
+                        <img src="./images/offers/offer_4.png" alt="Опытные преподаватели">
+                    </div>
+                </div>
+                <div class="offers-section__item row d-flex align-items-center my-4">
+                    <div class="offers-section__item-image col-md-3">
+                        <img src="./images/offers/offer_5.png" alt="Гибкий формат">
+                    </div>
+                    <div class="offers-section__item-description col-md-9">
+                        <p><span class="offers-section__accent">Гибкий формат:</span> Занятия проходят как онлайн, так и
+                            оффлайн. Вы можете выбрать удобное время и формат обучения.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="beliefs-section" id="about">
+        <div class="container">
+            <h2 class="beliefs-section__title">Почему выбирают нас?</h2>
+            <div class="beliefs-section__content row align-items-center">
+                <div class="about-section__text">
+                    <p class="about-section__description text-center">
+                        Мы верим, что программирование — это не только навык будущего, но и способ развить логическое
+                        мышление, креативность и уверенность в себе. Присоединяйтесь к нам и дайте вашему ребёнку
+                        возможность стать создателем, а не просто пользователем технологий!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-section" id="courses">
+        <div class="container">
+            <h2 class="courses-section__title">
+                Выберите курс для вашего ребёнка
+            </h2>
+            <div class="courses-section__courses row flex-wrap justify-content-between">
+                <div class="courses-section__card d-flex flex-column align-items-center col-4 my-2 mx-2">
+                    <div class="courses-section__card-image pt-4">
+                        <img src="./images/courses/scrath.svg" class="courses-section__card-image-svg" alt="scrath">
+                    </div>
+                    <h3 class="courses-section__card-title mt-4 mb-0">Scratch для начинающих</h3>
+                    <div class="courses-section__card-description pt-4 d-flex flex-column align-items-start w-100 px-2">
+                        <p><b>Возраст:</b> 6–9 лет</p>
+                        <p><b>Длительность:</b> 3 месяца</p>
+                        <p><b>Навыки:</b><br>Cоздание анимаций и игр</p>
+                    </div>
+                </div>
+                <div class="courses-section__card d-flex flex-column align-items-center col-4 my-2 mx-2">
+                    <div class="courses-section__card-image pt-4">
+                        <img src="./images/courses/python.svg" class="courses-section__card-image-svg" alt="python">
+                    </div>
+                    <h3 class="courses-section__card-title mt-4 mb-0">Python для школьников</h3>
+                    <div class="courses-section__card-description pt-4 d-flex flex-column align-items-start w-100 px-2">
+                        <p><b>Возраст:</b> 10–14 лет</p>
+                        <p><b>Длительность:</b> 6 месяцев</p>
+                        <p><b>Навыки:</b><br>Основы программирования, создание приложений</p>
+                    </div>
+                </div>
+                <div class="courses-section__card d-flex flex-column align-items-center col-4 my-2 mx-2">
+                    <div class="courses-section__card-image pt-4">
+                        <img src="./images/courses/html_css_js.svg" class="courses-section__card-image-svg"
+                            alt="html_css_js">
+                    </div>
+                    <h3 class="courses-section__card-title mt-4 mb-0">Веб-разработка</h3>
+                    <div class="courses-section__card-description pt-4 d-flex flex-column align-items-start w-100 px-2">
+                        <p><b>Возраст:</b> 12–16 лет</p>
+                        <p><b>Длительность:</b> 3 месяца</p>
+                        <p><b>Навыки:</b><br>Создание сайтов, HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="courses-section__card d-flex flex-column align-items-center col-4 my-2 mx-2">
+                    <div class="courses-section__card-image pt-4">
+                        <img src="./images/courses/blender.svg" class="courses-section__card-image-svg" alt="blender">
+                    </div>
+                    <h3 class="courses-section__card-title mt-4 mb-0">Blender 3D</h3>
+                    <div class="courses-section__card-description pt-4 d-flex flex-column align-items-start w-100 px-2">
+                        <p><b>Возраст:</b> 12–16 лет</p>
+                        <p><b>Длительность:</b> 4 месяца</p>
+                        <p><b>Навыки:</b><br>Cоздание 3D-моделей, анимация, основы рендеринга</p>
+                    </div>
+                </div>
+                <div class="courses-section__card d-flex flex-column align-items-center col-4 my-2 mx-2">
+                    <div class="courses-section__card-image pt-4">
+                        <img src="./images/courses/construct.svg" class="courses-section__card-image-svg"
+                            alt="construct">
+                    </div>
+                    <h3 class="courses-section__card-title mt-4 mb-0">Construct 3</h3>
+                    <div class="courses-section__card-description pt-4 d-flex flex-column align-items-start w-100 px-2">
+                        <p><b>Возраст:</b> 10–14 лет</p>
+                        <p><b>Длительность:</b> 2 месяца</p>
+                        <p><b>Навыки:</b><br>Разработка 2D-игр, работа с визуальным редактором</p>
+                    </div>
+                </div>
+                <div class="courses-section__card d-flex flex-column align-items-center col-4 my-2 mx-2">
+                    <div class="courses-section__card-image pt-4">
+                        <img src="./images/courses/figma.svg" class="courses-section__card-image-svg" alt="figma">
+                    </div>
+                    <h3 class="courses-section__card-title mt-4 mb-0">Figma: дизайн интерфейсов</h3>
+                    <div class="courses-section__card-description pt-4 d-flex flex-column align-items-start w-100 px-2">
+                        <p><b>Возраст:</b> 12–16 лет</p>
+                        <p><b>Длительность:</b> 3 месяца</p>
+                        <p><b>Навыки:</b><br>Создание прототипов сайтов и приложений</p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="courses-section__card d-flex flex-column align-items-center col-4 my-2 mx-2">
+                    <div class="courses-section__card-image pt-4">
+                        <img src="./images/courses/SQL.svg" class="courses-section__card-image-svg" alt="SQL">
+                    </div>
+                    <h3 class="courses-section__card-title mt-4 mb-0">Базы данных и SQL</h3>
+                    <div class="courses-section__card-description pt-4 d-flex flex-column align-items-start w-100 px-2">
+                        <p><b>Возраст:</b> 14–16 лет</p>
+                        <p><b>Длительность:</b> 3 месяца</p>
+                        <p><b>Навыки:</b><br>Проектирование и написание запросов к базам данных</p>
+                    </div>
+                </div>
+                <div class="courses-section__card d-flex flex-column align-items-center col-4 my-2 mx-2">
+                    <div class="courses-section__card-image pt-4">
+                        <img src="./images/courses/flask.svg" class="courses-section__card-image-svg" alt="flask">
+                    </div>
+                    <h3 class="courses-section__card-title mt-4 mb-0">Flask: приложение на Python</h3>
+                    <div class="courses-section__card-description pt-4 d-flex flex-column align-items-start w-100 px-2">
+                        <p><b>Возраст:</b> 14–16 лет</p>
+                        <p><b>Длительность:</b> 4 месяца</p>
+                        <p><b>Навыки:</b><br>Разработка backend-приложений на фреймворке Flask</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция отзывов -->
+    <!-- Секция отзывов -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <h2 class="reviews-section__title">Что говорят наши ученики и их родители?</h2>
+            <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Первый отзыв -->
+                    <div class="carousel-item active">
+                        <div class="review-card row align-items-center">
+                            <div class="col-md-4">
+                                <img src="./images/feedback/feedback_1.png" class="review-image" alt="Отзыв 1">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="review-text">"Мой сын в восторге от курсов! Он уже создал свою первую игру на
+                                    Scratch. Спасибо за отличное обучение!"</p>
+                                <p class="review-author">- Марина, мама ученика</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Второй отзыв -->
+                    <div class="carousel-item">
+                        <div class="review-card row align-items-center">
+                            <div class="col-md-4">
+                                <img src="./images/feedback/feedback_2.png" class="review-image" alt="Отзыв 2">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="review-text">"Очень довольны курсами по Python. Ребёнок с удовольствием
+                                    занимается и уже пишет свои первые программы."</p>
+                                <p class="review-author">- Игорь, папа ученика</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Третий отзыв -->
+                    <div class="carousel-item">
+                        <div class="review-card row align-items-center">
+                            <div class="col-md-4">
+                                <img src="./images/reviews/review_3.jpg" class="review-image" alt="Отзыв 3">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="review-text">"Отличные преподаватели и интересные задания. Дочь с радостью
+                                    ждёт каждое занятие!"</p>
+                                <p class="review-author">- Ольга, мама ученицы</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция записи на пробное занятие -->
+    <section class="record-section" id="record">
+        <div class="container">
+            <h2 class="record-section__title">Запишитесь на пробное занятие прямо сейчас!</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="./images/contacts/contacts.png" class="record-image" alt="Запись на занятие">
+                </div>
+                <div class="col-md-6">
+                    <form class="record-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="phone" placeholder="Введите ваш телефон"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Введите ваш email"
+                                required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Записаться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <h2 class="footer__title">Мы всегда на связи</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer__info">
+                        <p>Адрес: ул. Примерная, 123, Санкт-Петербург</p>
+                        <p>Телефон: +7 (123) 456-78-90</p>
+                        <p>Email: info@codingforkids.ru</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.598942412368!2d30.32088931581168!3d59.93879686904825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshoy%20Konyushennyy%20Lane%2C%2019%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sen!2s!4v1632923226924!5m2!1sen!2s"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

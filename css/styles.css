@@ -16,12 +16,17 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     text-transform: uppercase;
     font-size: 2rem;
     margin-bottom: 40px;
@@ -509,7 +514,8 @@ img {
 
 .swiper-container {
     width: 100%;
-    height: 300px; /* Высота слайдера */
+    height: 300px;
+    /* Высота слайдера */
     border-radius: 20px;
     overflow: hidden;
 }
@@ -550,12 +556,14 @@ img {
 }
 
 /* Секция About */
-.about-section, .beliefs-section {
+.about-section,
+.beliefs-section {
     padding: 80px 0;
     background-color: #E8F4FF;
 }
 
-.about-section__title, .beliefs-section__title {
+.about-section__title,
+.beliefs-section__title {
     color: var(--accent-color);
 }
 
@@ -569,7 +577,8 @@ img {
 }
 
 /* Секция офферов */
-.offers-section__title, .courses-section__title {
+.offers-section__title,
+.courses-section__title {
     margin-top: 40px;
     color: var(--primary-color);
 }
@@ -716,7 +725,9 @@ img {
         font-size: 1rem;
     }
 
-    h2, h3, h4 {
+    h2,
+    h3,
+    h4 {
         font-size: 1.5rem;
     }
 
@@ -749,20 +760,17 @@ img {
         flex-direction: column;
     }
 
-    .about-section__text, .about-section__image {
+    .about-section__text,
+    .about-section__image {
         width: 100%;
-    }
-
-    .courses-section__card {
-        width: 100%;
-        margin: 10px 0;
     }
 
     .review-card {
         flex-direction: column;
     }
 
-    .review-card .col-md-6, .review-card .col-md-4 {
+    .review-card .col-md-6,
+    .review-card .col-md-4 {
         width: 100%;
     }
 
@@ -771,12 +779,21 @@ img {
     }
 }
 
+@media (max-width: 400px) {
+    .courses-section__card {
+        width: 90%;
+        margin: 0;
+    }
+}
+
 @media (max-width: 320px) {
     body {
         font-size: 0.9rem;
     }
 
-    h2, h3, h4 {
+    h2,
+    h3,
+    h4 {
         font-size: 1.2rem;
     }
 
